@@ -21,10 +21,10 @@
   "paths": {
     "/campaigns": {
       "get": {
-        "description": "etrieves a list of all active and archived recruitment campaigns associated with a specific company.",
+        "description": "Retrieves a list of all active and archived recruitment campaigns associated with a specific company.",
         "parameters": [
           {
-            "name": "limit",
+            "name": "companyId",
             "in": "query",
             "description": "The maximum number of results to return",
             "schema": {
