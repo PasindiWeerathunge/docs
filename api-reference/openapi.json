@@ -19,9 +19,9 @@
     }
   ],
   "paths": {
-    "/plants": {
+    "/campaigns": {
       "get": {
-        "description": "Returns all plants from the system that the user has access to",
+        "description": "etrieves a list of all active and archived recruitment campaigns associated with a specific company.",
         "parameters": [
           {
             "name": "limit",
